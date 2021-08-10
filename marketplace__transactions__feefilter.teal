@@ -1,0 +1,22 @@
+// Check whether the fee is reasonable
+// In this case 10,000 microalgos
+txn Fee
+int 10000
+<=
+// Check if the length of the passphrase is correct
+arg 0
+len
+int 73
+==
+&&
+// Check the sha256 value of the passphrase
+arg 0
+sha256
+byte base64 30AT2gOReDBdJmLBO/DgvjC6hIXgACecTpFDcP1bJHU=
+==
+&&
+// Make sire the CloseRemainderTo is not set
+txn CloseRemainderTo
+txn Receiver
+==
+&&
