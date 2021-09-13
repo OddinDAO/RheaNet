@@ -15,7 +15,7 @@ sha256
 byte base64 30AT2gOReDBdJmLBO/DgvjC6hIXgACecTpFDcP1bJHU=
 ==
 &&
-// Make sire the CloseRemainderTo is not set
+// Make sire the Close Remainder To is not set
 txn CloseRemainderTo
 txn Receiver
 ==
