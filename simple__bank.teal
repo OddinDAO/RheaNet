@@ -1,0 +1,25 @@
+#pragma version 3
+txn TypeEnum
+int 1
+==
+txn Receiver
+addr ZZAF5ARA4MEC5PVDOP64JM5O5MQST63Q2KOY2FLYFLXXD3PFSNJJBYAFZM
+==
+&&
+global GroupSize
+int 1
+==
+&&
+txn AssetCloseTo
+global ZeroAddress
+==
+txn CloseRemainderTo
+global ZeroAddress
+==
+&&
+txn RekeyTo
+global ZeroAddress
+==
+&&
+&&
+return
